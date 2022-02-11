@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="Win" prefHeight="400.0" prefWidth="600.0" styleClass="primary-color" stylesheets="@../styles/LightMode.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.XWin">
+   <children>
+      <Label fx:id="text" alignment="CENTER" contentDisplay="CENTER" layoutX="200.0" layoutY="200.0" prefHeight="70.0" prefWidth="223.0" styleClass="primary-color" stylesheets="@../styles/LightMode.css" wrapText="true">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="ok" layoutX="261.0" layoutY="321.0" minHeight="51.2" minWidth="90.4" mnemonicParsing="false" onAction="#OkButton" prefWidth="51.2" style="-fx-background-color: #FF0000;" styleClass="round-border" stylesheets="@../styles/LightMode.css" text="OK">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="217.0" fitWidth="307.0" layoutX="161.0" layoutY="-17.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/winner.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="200.0" layoutX="423.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/winner.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="200.0" layoutX="106.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/winner.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
