@@ -1,1 +1,1 @@
-# The first game I created using javafx.
+# The first game using javafx.
